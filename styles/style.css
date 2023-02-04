@@ -58,6 +58,7 @@
 }
 
 .m-content {
+  height: 100%;
   width: 100%;
 }
 .m-content__case {

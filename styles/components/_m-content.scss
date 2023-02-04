@@ -1,6 +1,7 @@
 $component-name: 'm-content';
 
 .#{$component-name} {
+  height: 100%;
   width: 100%;
 
   &__case {
