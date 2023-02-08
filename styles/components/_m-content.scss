@@ -1,0 +1,55 @@
+$component-name: 'm-content';
+
+.#{$component-name} {
+  height: 100%;
+  width: 100%;
+
+  &__case {
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+
+    &-title {
+      font-size: 3.5rem;
+      margin: 0 0 25px 30px;
+    }
+
+    &-text {
+      font-size: 1.75rem;
+      padding: 10px 25px;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    &-button {
+      text-decoration: none;
+      margin: 10px 0 20px 25px;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 5px;
+      background-color: #000;
+      color: #fff;
+      font-size: 1.25rem;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+  }
+
+  &__brands {
+    width: 100%;
+
+    &-list {
+      height: 50px;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+      margin-bottom: 15px;
+      padding: 10px 0;
+    }
+  }
+}

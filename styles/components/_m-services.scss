@@ -1,0 +1,79 @@
+$component-name: 'm-services';
+
+.#{$component_name} {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__types {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+    gap: 20px;
+
+    &-development {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 15px 5px;
+      gap: 25px;
+
+      &-option {
+        padding: 10px;
+      }
+
+      &-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        padding: 10px 0;
+        margin-bottom: 10px;
+      }
+
+      &-text {
+        line-height: 1.5;
+        font-size: 1rem;
+        padding: 10px 15px;
+      }
+    }
+
+    &-it {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 90px 450px;
+      padding: 10px 20px;
+      line-height: 1.5;
+
+      &-detail-section {
+        display: flex;
+        flex-direction: column;
+        align-self: start;
+        grid-column: span 2;
+        align-items: center;
+
+        padding: 15px 0;
+      }
+
+      &-option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 10px 15px;
+
+        &-items {
+          list-style-type: disc;
+          padding: 10px 15px;
+
+          &-detail {
+            display: absolute;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

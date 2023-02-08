@@ -1,0 +1,17 @@
+@import './components/h-navigation';
+@import './components/m-content';
+@import './components/f-copyright';
+@import './components/m-workers';
+@import './components/m-services';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Epilogue', sans-serif;
+}
